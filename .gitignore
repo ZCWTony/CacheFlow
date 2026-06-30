@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Experiments
+experiments/results/
+*.log
+
+# Data (large files)
+data/raw/
+*.pcap
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/

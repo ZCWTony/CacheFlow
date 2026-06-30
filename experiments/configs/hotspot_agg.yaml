@@ -1,0 +1,3 @@
+traffic_mode: "burst"
+rule_file: "data/rules/sample_100k.json"
+duration_sec: 30

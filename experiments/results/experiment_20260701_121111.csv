@@ -1,0 +1,6 @@
+metric,value
+hit_rate,0.59375
+hits,418
+misses,286
+total_packets,704
+controller_interactions,286

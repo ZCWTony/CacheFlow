@@ -1,0 +1,7 @@
+[
+  {"id": "r_0", "priority": 1000, "match": {"src_ip": "10.0.0.1", "dst_ip": "192.168.1.1", "proto": "TCP", "src_port": 12345, "dst_port": 80}, "action": "FORWARD"},
+  {"id": "r_1", "priority": 900, "match": {"src_ip": "10.0.0.2", "dst_ip": "192.168.1.2", "proto": "UDP", "src_port": 54321, "dst_port": 53}, "action": "DROP"},
+  {"id": "r_2", "priority": 800, "match": {"src_ip": "10.0.0.3", "dst_ip": "192.168.1.1", "proto": "TCP", "src_port": 80, "dst_port": 8080}, "action": "FORWARD"},
+  {"id": "r_3", "priority": 700, "match": {"src_ip": "10.0.0.4", "dst_ip": "192.168.1.4", "proto": "ICMP", "src_port": 0, "dst_port": 0}, "action": "DROP"},
+  {"id": "r_4", "priority": 600, "match": {"src_ip": "10.0.0.5", "dst_ip": "192.168.1.5", "proto": "TCP", "src_port": 22, "dst_port": 22}, "action": "FORWARD"}
+]

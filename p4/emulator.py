@@ -1,4 +1,3 @@
-cat > p4/emulator.py << 'EOF'
 #!/usr/bin/env python3
 """
 P4 交换机模拟器（纯 Python）
@@ -43,4 +42,3 @@ class P4SwitchEmulator:
             'total': total,
             'hit_rate': hit_rate
         }
-EOF
